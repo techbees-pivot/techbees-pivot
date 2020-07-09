@@ -1,0 +1,205 @@
+
+@media(min-width:600px){
+	h2{ color: orangered;
+		// margin-right: auto;
+		// margin-left: auto;
+		// display:block;
+	}
+}
+
+.header {
+//     padding: 00px;
+//    display:inline;
+   background-image: linear-gradient(60deg, white, white); 
+
+ }
+
+ .bd {
+	background-color: #e6e6ff;
+	font-family: 'Muli', sans-serif;
+	display: flex;
+    overflow: hidden;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+.vl {
+	border-left: 1px solid silver;
+	height: 100vh;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	top: 15;
+  }
+
+.upload{
+    font-weight:bold;
+    color:#28a745;
+    margin-left: 15px;
+    line-height: 36px;
+}
+  .button {
+	background-color: #0c0f91; /* Orange */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+  }
+  
+  .butn:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+// File upload
+.form-header {
+	background-color: #102646;
+	color: white;
+	padding: 0 5px;
+}
+.mat-form-field{
+	padding-left:10px;
+}
+.validation-message{
+	background-color: #00BCD4;
+}
+.container{
+	padding-left:10px;
+	padding-right:10px;
+}
+.form-container {
+	padding: 5px 15px 15px 15px;
+}
+.form-component-holder {
+	border: 1px solid #102646;
+	background-color: white;
+}
+.text{
+	font-family:  Roboto, Helvetica Neue, sans-serif;
+}
+.cancelButton{
+	margin-left: 10px;
+}
+mat-header-cell,mat-cell,mat-form-field,input,h1,h2,h3,h4,h5,h6,p{
+	font-family:light;
+}
+.mat-snack-bar-container{
+	padding-left:20px !important;
+  }
+  .mat-dialog-container {
+    margin-left: 20px;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+	margin-left: 16px;
+  }
+
+ 
+  .column {
+	float: left;
+	 width: 50%;
+	 padding: 10px;
+	  height: 100vh;  
+	  background-color: #e6e6ff;
+   }
+   
+   
+   .row:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+   }
+   
+   
+   
+   .card {
+	 
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	 transition: 0.3s;
+	//  width:500px;
+	//  height: 550px;
+	 border-radius: 5px;
+	 background-color: white;
+	 color:Black;
+	 margin:20px;
+   }
+   
+   .card:hover {
+	 box-shadow: 0 8px 16px 0 rgba(26, 19, 19, 0.2);
+   }
+
+/// new login bootstrap style
+.user_card {
+	width:750px;
+	height: 500px;
+	margin-top: 40px;
+	margin-bottom: auto;
+	background: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+
+	}
+	.card {
+		width:750px;
+		height: 500px;
+		margin-top: 40px;
+		margin-bottom: auto;
+		background: white;
+		position: relative;
+		display: flex;
+		// justify-content: center;
+		flex-direction: column;
+		padding: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 5px;
+	
+		}
+
+	.form_container {
+	margin-top: 100px;
+	}
+	.login_btn {
+	width: 100%;
+	background: #4d4d4d !important;
+	color: white !important;
+	}
+	.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+	}
+	.login_container {
+	padding: 0 2rem;
+	}
+	.input-group-text {
+	background: #4d4d4d  !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+	}
+	.input_user,
+.input_pass:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+	}
+	// .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	// background-color: #4d4d4d !important;
+	// }
+a {
+color: white;
+text-decoration: none;
+background-color: transparent;
+-webkit-text-decoration-skip: objects;
+}
+   
+ 
+   

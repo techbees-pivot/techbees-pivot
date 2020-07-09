@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<div class="header"> 
+<img src="./assets/images/cirrusLogo.PNG" alt="Logo" >
+</div>
+
+<div class="bd">
+    
+    <div class="column" style="background-color: #e6e6ff;padding:30px; ">
+      
+        <div class="container" style="padding:5px;overflow: auto;">
+      <br>
+       <h2 style="color:#ed5f07; text-align:center"> PIVOT TABLE </h2>
+                      <!-- <hr style="width:80%; border: 1px solid silver;border-radius: 5px;"> -->
+                     
+                      
+<div class="container">
+    <table class="table table-trapped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Profile</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of userData ">
+                <td>{{data.name}}</td>
+                <td>{{data.addr}}</td>
+                <td>{{data.profile}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button class="button tn butn" routerLink="/launch" style=" background-color: #ec7f19;font-family: 'Muli', sans-serif;" >Back</button >
+</div>
+</div>
